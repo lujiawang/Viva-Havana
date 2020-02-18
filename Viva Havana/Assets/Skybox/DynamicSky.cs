@@ -9,28 +9,26 @@ public class DynamicSky : MonoBehaviour
 {
 
     public float RotateSpeed = 1.2f;
+    public float ChangingSpeed = 1.0f;
+    
+    public Material skybox;
 
-    public float SwitchTime = 5f;
-    //public float LerpSpeed = 1.2f;
-    public Material startMat;
-    public Material endMat;
+    private Color color;
+    private float red = 0.5f, green = 0.5f, blue = 0.5f;
 
     void Start()
-    {
-        RenderSettings.skybox = startMat;
+    {   //red = 0.5f, green = 0.5f, blue = 0.5f;
+        RenderSettings.skybox = skybox;
+        RenderSettings.skybox.SetFloat("_Exposure", 1.0f);
+        color = new Color(red,green,blue,0.5f);
     }
 
 
     void Update()
     {
-        //RenderSettings.skybox.Lerp(startMat, endMat, Time.time * LerpSpeed); 
+
+        RenderSettings.skybox.SetColor("_Tint", color);
         RenderSettings.skybox.SetFloat("_Rotation", Time.time * RotateSpeed);
-
-        //if(Time.time >= SwitchTime)
-        //{
-            //RenderSettings.skybox = endMat;
-        //}
-
-        //DynamicGI.UpdateEnvironment();
+        
     }
 }
