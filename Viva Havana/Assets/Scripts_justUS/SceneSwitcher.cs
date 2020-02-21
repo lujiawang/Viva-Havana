@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-   public void SceneSwitch(int sceneIndex)
+
+    public void SceneSwitch(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+        GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
     }
 
 }
