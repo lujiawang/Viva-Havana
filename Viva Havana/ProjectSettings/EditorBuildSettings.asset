@@ -8,22 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Plaza de la Catedral.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Testing music.unity
     guid: 8df2d59497816154abaf7dad24196f2f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Photon Scenes/Launcher.unity
     guid: 5c88ed1995d684f0eb7f8ce09d9377aa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Photon Scenes/Room for 1.unity
     guid: 8e01d891ee1ca40829fad35802532498
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Photon Scenes/Room for 2.unity
     guid: a49985899898a4d218e9438d89f9adda
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Photon Scenes/Room for 3.unity
     guid: 98257a8493b274f929fcf1e2b0893c57
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Photon Scenes/Room for 4.unity
     guid: 853f72a9c694b45b18711e23984ef3d8
   m_configObjects: {}
