@@ -2,24 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.Audio;
 
 public class SwapVideo : MonoBehaviour
 {
 	private VideoPlayer vp;
 
 	public VideoClip[] clips;
+	private int index;
 
     // Start is called before the first frame update
     void Start()
     {
 		vp = GetComponent<VideoPlayer>();
 		vp.clip = clips[0];
-		print(vp.clip.name);
+
     }
 
-    // Update is called once per frame
-    void Update()
+    
+    public void Swapping()
     {
-        
+		index++;
+		index %= clips.Length;
+		vp = GetComponent<VideoPlayer>();
+		vp.clip = clips[index];
     }
 }
