@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+/*This script will eventually be replaced by a UI menu*/
 public class SceneSwitcher : MonoBehaviour
 {
-
-    public void SceneSwitch(int sceneIndex)
+    public int sceneNum = 2;
+    
+    public void SceneSwitch()
     {
-        SceneManager.LoadScene(sceneIndex);
+        int current = SceneManager.GetActiveScene().buildIndex;
+        
+        SceneManager.LoadScene((current+1) % sceneNum);
+
         GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
     }
 

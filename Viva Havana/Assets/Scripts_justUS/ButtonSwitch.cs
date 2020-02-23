@@ -20,7 +20,7 @@ public class ButtonSwitch: MonoBehaviour
 	{
 		var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit Hit;
-
+        
 		if (Input.GetMouseButtonDown(0))
 		{
 			if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == gameObject)
