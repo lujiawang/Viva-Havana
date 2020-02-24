@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Passer;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -8,6 +9,7 @@ public class ButtonSwitch: MonoBehaviour
 
 	public GameObject definedButton;
 	public UnityEvent OnClick = new UnityEvent();
+    public ClickingBehavior ck;
 
 	// Use this for initialization
 	void Start()
@@ -18,7 +20,14 @@ public class ButtonSwitch: MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (ck)
+        {
+            OnClick.Invoke();
+        }
+        
+/*		var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+       
 		RaycastHit Hit;
         
 		if (Input.GetMouseButtonDown(0))
@@ -28,6 +37,6 @@ public class ButtonSwitch: MonoBehaviour
 				Debug.Log("Button Clicked");
 				OnClick.Invoke();
 			}
-		}
+		}*/
 	}
 }
