@@ -44,6 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b124f0976f3c00409b19cfc391ac004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncFingerSwing: 0
+  debug: 3
+  isLocal: 0
+  humanoids: []
 --- !u!114 &4172304368457352182
 MonoBehaviour:
   m_ObjectHideFlags: 0
