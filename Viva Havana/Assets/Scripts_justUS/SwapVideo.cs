@@ -9,23 +9,22 @@ public class SwapVideo : MonoBehaviour
 	private VideoPlayer vp;
 
 	public VideoClip[] clips;
-	private int index = 0;
+	private int index;
 
     // Start is called before the first frame update
     void Start()
     {
 		vp = GetComponent<VideoPlayer>();
-		vp.clip = clips[index];
+		vp.clip = clips[0];
+
     }
 
     
     public void Swapping()
     {
-
 		index++;
 		index %= clips.Length;
 		vp = GetComponent<VideoPlayer>();
 		vp.clip = clips[index];
-        
     }
 }
