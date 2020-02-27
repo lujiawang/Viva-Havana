@@ -15,26 +15,27 @@ public class ClickingBehavior : MonoBehaviour
     private float distance;
     public float threshold;
 
-    public Transform[] buttons;
-    public UnityEvent[] OnClick;
+    public Transform buttons;
+    public UnityEvent OnClick;
+       
 
-   
-
-    void Update()
+    /*void Update()
     {
-        for (int i=0; i < buttons.Length; i++) { 
-
-            distance = Math.Min(Vector3.Distance(fingerTipLeft.position, buttons[i].position), Vector3.Distance(fingerTipRight.position, buttons[i].position));
+            distance = Math.Min(Vector3.Distance(fingerTipLeft.position, buttons.position), Vector3.Distance(fingerTipRight.position, buttons.position));
             if (distance <= threshold && !clicked)
             {
                 clicked = true;
-                OnClick[i].Invoke();
+                OnClick.Invoke();
             }
             else if (distance > threshold)
             {
                 clicked = false;
-            }
-        }
-        
+            }        
+    }
+    */
+    private void OnTriggerEnter(Collider other)
+    {
+        OnClick.Invoke();
+        print("clicked");
     }
 }

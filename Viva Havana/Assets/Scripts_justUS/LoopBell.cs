@@ -11,7 +11,7 @@ public class LoopBell : MonoBehaviour
     {
         time = 0f;
         audio = GetComponent<AudioSource>();
-        if (Time.time == 0)
+        if (Time.time <= 10)
             audio.Play();
     }
 
