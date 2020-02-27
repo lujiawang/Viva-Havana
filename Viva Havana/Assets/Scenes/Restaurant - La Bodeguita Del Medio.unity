@@ -1300,22 +1300,12 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  steamVR:
+  oculus:
     enabled: 1
     target: {fileID: 0}
     sensorTransform: {fileID: 0}
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    steamVrController: {fileID: 0}
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
   stretchlessTarget: {fileID: 0}
   shoulder:
     name: 
@@ -1479,6 +1469,53 @@ Transform:
   m_Father: {fileID: 862524931}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &49621088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49621089}
+  - component: {fileID: 49621090}
+  m_Layer: 0
+  m_Name: Oculus HMD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &49621089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49621088}
+  m_LocalRotation: {x: -0.000010745599, y: 0.004846211, z: -0.000000104113894, w: 0.9999883}
+  m_LocalPosition: {x: 0.0016476498, y: 1.6328442, z: 0.16718279}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 617591137}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &49621090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49621088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3d72f0140b14b409d9414461439116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  rotationConfidence: 0
+  positionConfidence: 0
+  autoUpdate: 1
 --- !u!1 &60708918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1854,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &145659195
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,22 +3254,12 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  steamVR:
+  oculus:
     enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    steamVrController: {fileID: 0}
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
+    target: {fileID: 219790259}
+    sensorTransform: {fileID: 716462999}
+    sensor2TargetPosition: {x: 0.049999997, y: 0.024999991, z: -0.019999998}
+    sensor2TargetRotation: {x: -0.49999997, y: 0.5, z: 0.5, w: 0.49999994}
   stretchlessTarget: {fileID: 0}
   shoulder:
     name: 
@@ -3430,14 +3456,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  touchPad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  gripButton: 0
-  menuButton: 0
-  aButton: 0
 --- !u!1 &237421156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4086,15 +4104,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &375864216
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,22 +5675,12 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  steamVR:
+  oculus:
     enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    steamVrController: {fileID: 0}
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
+    target: {fileID: 497174503}
+    sensorTransform: {fileID: 667222660}
+    sensor2TargetPosition: {x: -0.050000023, y: 0.025000032, z: -0.02}
+    sensor2TargetRotation: {x: -0.5, y: -0.50000006, z: -0.50000006, w: 0.5}
   stretchlessTarget: {fileID: 0}
   shoulder:
     name: 
@@ -5913,15 +5912,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &522443274
 GameObject:
   m_ObjectHideFlags: 0
@@ -6230,6 +6220,9 @@ Transform:
   - {fileID: 2131085690}
   - {fileID: 591414475}
   - {fileID: 932332558}
+  - {fileID: 49621089}
+  - {fileID: 716462999}
+  - {fileID: 667222660}
   m_Father: {fileID: 1080360867}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6386,6 +6379,110 @@ Transform:
   m_Father: {fileID: 1235843296}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &667222659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667222660}
+  - component: {fileID: 667222663}
+  - component: {fileID: 667222662}
+  - component: {fileID: 667222661}
+  m_Layer: 0
+  m_Name: Right Quest Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &667222660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667222659}
+  m_LocalRotation: {x: 0.49572095, y: 0.50421405, z: 0.49565303, w: 0.5043382}
+  m_LocalPosition: {x: 0.7062906, y: 1.3808752, z: 0.0097816335}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 617591137}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &667222661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667222659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6235e438f770bf44285b28080c623d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  rotationConfidence: 0
+  positionConfidence: 0
+  autoUpdate: 1
+  isLeft: 0
+  joystick: {x: 0, y: 0, z: 0}
+  indexTrigger: 0
+  handTrigger: 0
+  buttonAX: 0
+  buttonBY: 0
+  thumbrest: 0
+  positionalTracking: 1
+--- !u!23 &667222662
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667222659}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dc3b3568b7c54234f9d6a9f7297c3425, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &667222663
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667222659}
+  m_Mesh: {fileID: 4300000, guid: 6d5af71f44006e9478341b87a6c2867b, type: 3}
 --- !u!1 &690942638
 GameObject:
   m_ObjectHideFlags: 0
@@ -6433,7 +6530,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &699653222
 GameObject:
   m_ObjectHideFlags: 0
@@ -6464,6 +6560,110 @@ Transform:
   m_Father: {fileID: 393006022}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &716462998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 716462999}
+  - component: {fileID: 716463002}
+  - component: {fileID: 716463001}
+  - component: {fileID: 716463000}
+  m_Layer: 0
+  m_Name: Left Quest Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &716462999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716462998}
+  m_LocalRotation: {x: 0.50092274, y: -0.49918023, z: -0.5005243, w: 0.49937057}
+  m_LocalPosition: {x: -0.7059565, y: 1.3801652, z: 0.015847707}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 617591137}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &716463000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716462998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6235e438f770bf44285b28080c623d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  rotationConfidence: 0
+  positionConfidence: 0
+  autoUpdate: 1
+  isLeft: 1
+  joystick: {x: 0, y: 0, z: 0}
+  indexTrigger: 0
+  handTrigger: 0
+  buttonAX: 0
+  buttonBY: 0
+  thumbrest: 0
+  positionalTracking: 1
+--- !u!23 &716463001
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716462998}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dc3b3568b7c54234f9d6a9f7297c3425, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &716463002
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716462998}
+  m_Mesh: {fileID: 4300000, guid: a533ecc148345874ca68507932792b9e, type: 3}
 --- !u!1 &740358831
 GameObject:
   m_ObjectHideFlags: 0
@@ -8203,14 +8403,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  touchPad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  gripButton: 0
-  menuButton: 0
-  aButton: 0
 --- !u!1 &847429455
 GameObject:
   m_ObjectHideFlags: 0
@@ -8352,13 +8544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6afa301bf282314c95f7dc30e4ba468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tracker:
-    status: 0
-    enabled: 0
-    trackerTransform: {fileID: 0}
-    subTrackers: []
-    hmd: {fileID: 0}
-    controllers: []
 --- !u!1 &862524930
 GameObject:
   m_ObjectHideFlags: 0
@@ -8551,15 +8736,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &890764462
 GameObject:
   m_ObjectHideFlags: 0
@@ -9025,14 +9201,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  touchPad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  gripButton: 0
-  menuButton: 0
-  aButton: 0
 --- !u!1 &994410817
 GameObject:
   m_ObjectHideFlags: 0
@@ -10089,7 +10257,8 @@ MonoBehaviour:
   animatorController: {fileID: 0}
   pose: {fileID: 0}
   editPose: 0
-  remoteAvatar: {fileID: 0}
+  remoteAvatar: {fileID: -927199367670048503, guid: 3064a25307b741f4e84c80859a87815c,
+    type: 3}
   isRemote: 0
   nwId: 0
   humanoidId: 0
@@ -10111,20 +10280,12 @@ MonoBehaviour:
     enabled: 0
     trackerTransform: {fileID: 0}
     subTrackers: []
-  steam:
+  oculus:
     status: 0
-    enabled: 0
-    trackerTransform: {fileID: 0}
+    enabled: 1
+    trackerTransform: {fileID: 617591137}
     subTrackers: []
-    hmd: {fileID: 0}
-    controllers: []
-  openVR:
-    status: 0
-    enabled: 0
-    trackerTransform: {fileID: 0}
-    subTrackers: []
-    hmd: {fileID: 0}
-    controllers: []
+    androidDeviceType: 2
   forwardSpeed: 1
   backwardSpeed: 0.6
   sidewardSpeed: 1
@@ -10578,6 +10739,11 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3499580624617738389, guid: bef5d45778b1bde46b9422c54d1f54bd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3748849467100444891, guid: bef5d45778b1bde46b9422c54d1f54bd,
         type: 3}
       propertyPath: m_Convex
@@ -10711,7 +10877,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &1188102013
 GameObject:
   m_ObjectHideFlags: 0
@@ -11141,20 +11306,13 @@ MonoBehaviour:
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     headAnimation: 1
     faceAnimation: 1
-  steamVR:
+  oculus:
     enabled: 1
     target: {fileID: 0}
     sensorTransform: {fileID: 0}
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    steamVrHmd: {fileID: 0}
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    hmd: {fileID: 0}
+    overrideOptitrackPosition: 1
   microphone:
     enabled: 1
     target: {fileID: 0}
@@ -12307,20 +12465,13 @@ MonoBehaviour:
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     headAnimation: 0
     faceAnimation: 0
-  steamVR:
+  oculus:
     enabled: 1
-    target: {fileID: 0}
+    target: {fileID: 1428492734}
     sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    steamVrHmd: {fileID: 0}
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    hmd: {fileID: 0}
+    sensor2TargetPosition: {x: 0.00002947498, y: -0.194, z: -0.338}
+    sensor2TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+    overrideOptitrackPosition: 1
   microphone:
     enabled: 1
     target: {fileID: 0}
@@ -13358,7 +13509,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &1463174571
 GameObject:
   m_ObjectHideFlags: 0
@@ -14315,7 +14465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0700dfe8be40b4a5a9ad13adde722b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNum: 2
 --- !u!4 &1766498450
 Transform:
   m_ObjectHideFlags: 0
@@ -14786,14 +14935,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  touchPad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  gripButton: 0
-  menuButton: 0
-  aButton: 0
 --- !u!1 &1938691500
 GameObject:
   m_ObjectHideFlags: 0
@@ -15895,22 +16036,12 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  steamVR:
+  oculus:
     enabled: 1
     target: {fileID: 0}
     sensorTransform: {fileID: 0}
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    steamVrController: {fileID: 0}
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
   stretchlessTarget: {fileID: 0}
   shoulder:
     name: 
@@ -16141,15 +16272,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &2093234257
 GameObject:
   m_ObjectHideFlags: 0
@@ -17991,6 +18113,7 @@ GameObject:
   - component: {fileID: 3238316917292020771}
   - component: {fileID: 9221011809422965137}
   - component: {fileID: 4354595618570349039}
+  - component: {fileID: 1341101666970868775}
   m_Layer: 0
   m_Name: Cylinder256
   m_TagString: Untagged
@@ -17998,6 +18121,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1341101666970868775
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341101666970868774}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1445508822327684626
 GameObject:
   m_ObjectHideFlags: 0
@@ -18071,6 +18210,7 @@ GameObject:
   - component: {fileID: 829407217078284089}
   - component: {fileID: 7537984663787783996}
   - component: {fileID: 8911651653210831159}
+  - component: {fileID: 1571896200594831966}
   m_Layer: 0
   m_Name: Cylinder255
   m_TagString: Untagged
@@ -18078,6 +18218,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1571896200594831966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571896200594831965}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1577011844256703487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19521,6 +19677,7 @@ GameObject:
   - component: {fileID: 4914995132841023912}
   - component: {fileID: 3993469077146338606}
   - component: {fileID: 2049359169133912911}
+  - component: {fileID: 3056209799443980867}
   m_Layer: 0
   m_Name: Cylinder259
   m_TagString: Untagged
@@ -19528,6 +19685,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &3056209799443980867
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3056209799443980866}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &3057397166104194676
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19671,6 +19844,7 @@ GameObject:
   - component: {fileID: 8656816547059952758}
   - component: {fileID: 2623182040151675048}
   - component: {fileID: 3415510587994548185}
+  - component: {fileID: 3190475080692320473}
   m_Layer: 0
   m_Name: Cylinder257
   m_TagString: Untagged
@@ -19678,6 +19852,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &3190475080692320473
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190475080692320472}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &3190996349879783800
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20588,6 +20778,7 @@ GameObject:
   - component: {fileID: 6039398489751267327}
   - component: {fileID: 6882004092169412175}
   - component: {fileID: 3724298076385620331}
+  - component: {fileID: 4145216090663388034}
   m_Layer: 0
   m_Name: Cylinder253
   m_TagString: Untagged
@@ -20595,6 +20786,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &4145216090663388034
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145216090663388033}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &4203727774329165318
 Transform:
   m_ObjectHideFlags: 0
@@ -21038,6 +21245,7 @@ GameObject:
   - component: {fileID: 7473084838780200190}
   - component: {fileID: 5567639636751574684}
   - component: {fileID: 4066725401036653926}
+  - component: {fileID: 4826310979618049826}
   m_Layer: 0
   m_Name: Cylinder258
   m_TagString: Untagged
@@ -21045,6 +21253,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &4826310979618049826
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826310979618049825}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!33 &4866791641379824765
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24533,6 +24757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5006512736212140752}
+  - component: {fileID: 8296172668327178436}
   m_Layer: 0
   m_Name: Bar
   m_TagString: Untagged
@@ -24540,6 +24765,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8296172668327178436
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668327178435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &8296172669041571126
 GameObject:
   m_ObjectHideFlags: 0
@@ -24946,6 +25185,7 @@ GameObject:
   - component: {fileID: 3613478534172754453}
   - component: {fileID: 6585378555202185658}
   - component: {fileID: 1822165217797071713}
+  - component: {fileID: 8703527388541304511}
   m_Layer: 0
   m_Name: Cylinder254
   m_TagString: Untagged
@@ -24953,6 +25193,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &8703527388541304511
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703527388541304510}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8758256016198837035
 GameObject:
   m_ObjectHideFlags: 0
