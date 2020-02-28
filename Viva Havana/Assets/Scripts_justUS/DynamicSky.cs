@@ -11,7 +11,7 @@ public class DynamicSky : MonoBehaviour
     public float RotateSpeed = 1.2f;
     public float duration = 60f;
         
-    public Material skybox;
+    //public Material skybox;
 
 
     private float ChangingSpeed = 1.0f;
@@ -27,7 +27,7 @@ public class DynamicSky : MonoBehaviour
     void Start()
     {
         CalculateSpeed();
-        RenderSettings.skybox = skybox;
+        //RenderSettings.skybox = skybox;
         RenderSettings.skybox.SetFloat("_Exposure", 1.0f);
         color = new Color(red, green, blue, alpha);
         RenderSettings.skybox.SetColor("_Tint", color);
