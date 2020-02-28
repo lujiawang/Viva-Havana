@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.7434667, g: 0.766786, b: 0.8194831, a: 1}
+  m_IndirectSpecularColor: {r: 0.7294094, g: 0.7873924, b: 0.8482333, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1018,6 +1018,15 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
+  openVR:
+    enabled: 1
+    target: {fileID: 0}
+    sensorTransform: {fileID: 0}
+    sensor2TargetPosition: {x: 0, y: 0, z: 0}
+    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
+    openVRController: {fileID: 0}
+    controllerType: 0
+    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 19455486}
@@ -2108,7 +2117,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a697dd6a12da55f49b88445dce5136da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a697dd6a12da55f49b88445dce5136da,
         type: 3}
@@ -3190,6 +3199,15 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
+  openVR:
+    enabled: 1
+    target: {fileID: 0}
+    sensorTransform: {fileID: 0}
+    sensor2TargetPosition: {x: 0, y: 0, z: 0}
+    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
+    openVRController: {fileID: 0}
+    controllerType: 0
+    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 262058350}
@@ -3568,6 +3586,15 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
+  trackerId: -1
+  isLeft: 0
+  controllerType: 0
+  joystick: {x: 0, y: 0, z: 0}
+  touchpad: {x: 0, y: 0, z: 0}
+  trigger: 0
+  grip: 0
+  aButton: 0
+  bButton: 0
 --- !u!1 &354075111
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,6 +4535,13 @@ MonoBehaviour:
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     headAnimation: 0
     faceAnimation: 0
+  openVR:
+    enabled: 1
+    target: {fileID: 0}
+    sensorTransform: {fileID: 0}
+    sensor2TargetPosition: {x: 0, y: 0, z: 0}
+    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
+    hmd: {fileID: 0}
   oculus:
     enabled: 1
     target: {fileID: 532990940}
@@ -5805,6 +5839,7 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
+  trackerId: 0
 --- !u!1 &625387362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,12 +6535,18 @@ MonoBehaviour:
     enabled: 0
     trackerTransform: {fileID: 0}
     subTrackers: []
+  openVR:
+    status: 0
+    enabled: 0
+    trackerTransform: {fileID: 0}
+    subTrackers: []
+    hmd: {fileID: 0}
+    controllers: []
   oculus:
     status: 0
     enabled: 1
     trackerTransform: {fileID: 1265821953}
     subTrackers: []
-    androidDeviceType: 2
   forwardSpeed: 1.2
   backwardSpeed: 0.8
   sidewardSpeed: 1
@@ -8752,6 +8793,7 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
+  trackerId: 0
 --- !u!1 &815078179
 GameObject:
   m_ObjectHideFlags: 0
@@ -11263,6 +11305,15 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
+  trackerId: -1
+  isLeft: 0
+  controllerType: 0
+  joystick: {x: 0, y: 0, z: 0}
+  touchpad: {x: 0, y: 0, z: 0}
+  trigger: 0
+  grip: 0
+  aButton: 0
+  bButton: 0
 --- !u!1 &1157849253
 GameObject:
   m_ObjectHideFlags: 0
@@ -12095,6 +12146,15 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
+  openVR:
+    enabled: 1
+    target: {fileID: 0}
+    sensorTransform: {fileID: 0}
+    sensor2TargetPosition: {x: 0, y: 0, z: 0}
+    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
+    openVRController: {fileID: 0}
+    controllerType: 0
+    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 1163520132}
@@ -12429,6 +12489,15 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
+  trackerId: -1
+  isLeft: 0
+  controllerType: 0
+  joystick: {x: 0, y: 0, z: 0}
+  touchpad: {x: 0, y: 0, z: 0}
+  trigger: 0
+  grip: 0
+  aButton: 0
+  bButton: 0
 --- !u!1 &1230384637
 GameObject:
   m_ObjectHideFlags: 0
@@ -13314,6 +13383,15 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
+  trackerId: -1
+  isLeft: 0
+  controllerType: 0
+  joystick: {x: 0, y: 0, z: 0}
+  touchpad: {x: 0, y: 0, z: 0}
+  trigger: 0
+  grip: 0
+  aButton: 0
+  bButton: 0
 --- !u!1 &1401531197
 GameObject:
   m_ObjectHideFlags: 0
@@ -14687,6 +14765,15 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
+  openVR:
+    enabled: 1
+    target: {fileID: 0}
+    sensorTransform: {fileID: 0}
+    sensor2TargetPosition: {x: 0, y: 0, z: 0}
+    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
+    openVRController: {fileID: 0}
+    controllerType: 0
+    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 0}
@@ -15656,6 +15743,13 @@ MonoBehaviour:
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     headAnimation: 1
     faceAnimation: 1
+  openVR:
+    enabled: 1
+    target: {fileID: 0}
+    sensorTransform: {fileID: 0}
+    sensor2TargetPosition: {x: 0, y: 0, z: 0}
+    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
+    hmd: {fileID: 0}
   oculus:
     enabled: 1
     target: {fileID: 0}
@@ -18275,72 +18369,72 @@ Transform:
   m_Father: {fileID: 1797150646}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1469806060357624085
+--- !u!1001 &2125698180
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 24.9
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.9
+      value: 25.2
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
-    - target: {fileID: 5845522911541082693, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 5845522911541082693, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7441109614638581846, guid: 07be6ca176cb1614cb3efcd5828f120f,
+    - target: {fileID: 7441109614638581846, guid: 912c9a0c42779004da55a7619a5904df,
         type: 3}
       propertyPath: m_Name
       value: Cathedral
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 07be6ca176cb1614cb3efcd5828f120f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 912c9a0c42779004da55a7619a5904df, type: 3}
