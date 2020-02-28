@@ -9296,7 +9296,7 @@ GameObject:
   - component: {fileID: 955974337}
   - component: {fileID: 955974336}
   m_Layer: 0
-  m_Name: open restarants_BOX
+  m_Name: gallary_BOX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
