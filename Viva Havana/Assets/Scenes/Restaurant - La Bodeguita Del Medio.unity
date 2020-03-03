@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -97,8 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 650820800a5034a74b7915d30a5553ff,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -1911,15 +1910,6 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 0}
@@ -4217,7 +4207,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &135692192
 GameObject:
   m_ObjectHideFlags: 0
@@ -7369,15 +7358,6 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  openVR:
-    enabled: 1
-    target: {fileID: 219790259}
-    sensorTransform: {fileID: 226340144}
-    sensor2TargetPosition: {x: 0.069999985, y: 0.020000014, z: -0.04}
-    sensor2TargetRotation: {x: -0.18301271, y: 0.18301271, z: 0.6830127, w: 0.6830127}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 219790259}
@@ -7689,15 +7669,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 1
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &228046027
 GameObject:
   m_ObjectHideFlags: 0
@@ -8266,7 +8237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: b9d795777fbc0584d9ce841b2c411b0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9876,15 +9847,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &359925022
 GameObject:
   m_ObjectHideFlags: 0
@@ -10339,15 +10301,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &389899334
 GameObject:
   m_ObjectHideFlags: 0
@@ -10718,7 +10671,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.928137, b: 0.6966447, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -10968,7 +10921,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.83321506, b: 0.6759523, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.6
   m_Range: 16.25
   m_SpotAngle: 30
@@ -11328,7 +11281,7 @@ PrefabInstance:
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
@@ -12504,7 +12457,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: 739de40f8a1e8ea469b60f377f6ef2df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13576,15 +13529,6 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  openVR:
-    enabled: 1
-    target: {fileID: 497174503}
-    sensorTransform: {fileID: 384191485}
-    sensor2TargetPosition: {x: -0.070000015, y: 0.019999987, z: -0.040000003}
-    sensor2TargetRotation: {x: -0.18301272, y: -0.18301271, z: -0.6830127, w: 0.6830128}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 497174503}
@@ -13931,15 +13875,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &508057783
 GameObject:
   m_ObjectHideFlags: 0
@@ -14047,7 +13982,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.83321506, b: 0.6759523, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.6
   m_Range: 16.25
   m_SpotAngle: 30
@@ -14193,7 +14128,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: b9d795777fbc0584d9ce841b2c411b0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19434,7 +19369,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: b9d795777fbc0584d9ce841b2c411b0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19684,7 +19619,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: 7ae1d275b544ed04880fd992cc8e06f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20166,7 +20101,7 @@ PrefabInstance:
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
@@ -21214,7 +21149,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.83321506, b: 0.6759523, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.6
   m_Range: 16.25
   m_SpotAngle: 30
@@ -21406,15 +21341,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &883366692
 GameObject:
   m_ObjectHideFlags: 0
@@ -21544,7 +21470,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: e8e432047d25a4541a17a0a5f514355e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22078,7 +22004,7 @@ PrefabInstance:
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
@@ -24169,18 +24095,12 @@ MonoBehaviour:
     enabled: 0
     trackerTransform: {fileID: 0}
     subTrackers: []
-  openVR:
-    status: 0
-    enabled: 1
-    trackerTransform: {fileID: 1983886211}
-    subTrackers: []
-    hmd: {fileID: 0}
-    controllers: []
   oculus:
     status: 0
     enabled: 1
     trackerTransform: {fileID: 617591137}
     subTrackers: []
+    androidDeviceType: 2
   forwardSpeed: 1
   backwardSpeed: 0.6
   sidewardSpeed: 1
@@ -24391,7 +24311,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: 7ae1d275b544ed04880fd992cc8e06f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25659,7 +25579,7 @@ PrefabInstance:
     - target: {fileID: 351116957396945885, guid: bef5d45778b1bde46b9422c54d1f54bd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 351116957396945885, guid: bef5d45778b1bde46b9422c54d1f54bd,
         type: 3}
@@ -26136,7 +26056,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: 7ae1d275b544ed04880fd992cc8e06f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27161,7 +27081,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.8355702, b: 0.80678177, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 72
@@ -27962,7 +27882,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &1274209039
 GameObject:
   m_ObjectHideFlags: 0
@@ -29146,7 +29065,7 @@ PrefabInstance:
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 517182654028028930, guid: f57af064d16dabf4e85691e4bb6d5636,
         type: 3}
@@ -29257,7 +29176,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7c72da02018244f07abb48979e1cf6e7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c72da02018244f07abb48979e1cf6e7,
         type: 3}
@@ -29399,13 +29318,6 @@ MonoBehaviour:
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     headAnimation: 1
     faceAnimation: 1
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    hmd: {fileID: 0}
   oculus:
     enabled: 1
     target: {fileID: 0}
@@ -30497,7 +30409,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.83321506, b: 0.6759523, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.6
   m_Range: 16.25
   m_SpotAngle: 30
@@ -31343,13 +31255,6 @@ MonoBehaviour:
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     headAnimation: 0
     faceAnimation: 0
-  openVR:
-    enabled: 1
-    target: {fileID: 1428492734}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0.00002947498, y: -0.194, z: -0.338}
-    sensor2TargetRotation: {x: -0, y: -0, z: -0, w: 1}
-    hmd: {fileID: 0}
   oculus:
     enabled: 1
     target: {fileID: 1428492734}
@@ -32800,7 +32705,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: 0
 --- !u!1 &1456056424
 GameObject:
   m_ObjectHideFlags: 0
@@ -33016,7 +32920,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.990566, g: 0.94161326, b: 0.58406013, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 47
@@ -34905,7 +34809,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.83321506, b: 0.6759523, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 3.46
   m_Range: 16.25
   m_SpotAngle: 30
@@ -39642,7 +39546,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: a76fca39c0b02574ba50c64017bf6139, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41050,15 +40954,6 @@ MonoBehaviour:
     sensor2TargetPosition: {x: 0, y: 0, z: 0}
     sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
     armSwing: 0
-  openVR:
-    enabled: 1
-    target: {fileID: 0}
-    sensorTransform: {fileID: 0}
-    sensor2TargetPosition: {x: 0, y: 0, z: 0}
-    sensor2TargetRotation: {x: 0, y: 0, z: 0, w: 0}
-    openVRController: {fileID: 0}
-    controllerType: 0
-    useSkeletalInput: 1
   oculus:
     enabled: 1
     target: {fileID: 0}
@@ -41226,7 +41121,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.83321506, b: 0.6759523, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 3.84
   m_Range: 16.25
   m_SpotAngle: 30
@@ -41575,7 +41470,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: 7ae1d275b544ed04880fd992cc8e06f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41699,15 +41594,6 @@ MonoBehaviour:
   rotationConfidence: 0
   positionConfidence: 0
   autoUpdate: 1
-  trackerId: -1
-  isLeft: 0
-  controllerType: 0
-  joystick: {x: 0, y: 0, z: 0}
-  touchpad: {x: 0, y: 0, z: 0}
-  trigger: 0
-  grip: 0
-  aButton: 0
-  bButton: 0
 --- !u!1 &2093234257
 GameObject:
   m_ObjectHideFlags: 0
@@ -41928,7 +41814,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7c72da02018244f07abb48979e1cf6e7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c72da02018244f07abb48979e1cf6e7,
         type: 3}
@@ -70155,7 +70041,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: e8e432047d25a4541a17a0a5f514355e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72426,7 +72312,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf904fd6893144da6844bbdf9186b84a, type: 2}
+  - {fileID: 2100000, guid: 8c0e58971d5522a4aa8338db6f128709, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
