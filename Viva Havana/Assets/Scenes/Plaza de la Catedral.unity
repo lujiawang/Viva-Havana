@@ -16467,6 +16467,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1067172051}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1752043279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1752043280}
+  m_Layer: 0
+  m_Name: CubanHouses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1752043280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752043279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.932613, y: -7.73396, z: 57.579903}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1755086002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1733719558593495922, guid: 3064a25307b741f4e84c80859a87815c,
@@ -19519,75 +19549,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 912c9a0c42779004da55a7619a5904df, type: 3}
---- !u!1001 &4355308429417967925
+--- !u!1001 &2181937920776767265
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5414030902848125137, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 5908112996779734258, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9041497090561739458, guid: 98b228aa982fa4f429c3280b1bad886a,
+    - target: {fileID: 7468811716335912673, guid: 2b765eaf44b608845a5893b0c94035d9,
         type: 3}
       propertyPath: m_Name
-      value: Cuban House_JustUS
+      value: Cuban House Modified
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 98b228aa982fa4f429c3280b1bad886a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2b765eaf44b608845a5893b0c94035d9, type: 3}
 --- !u!1001 &6628140240188963531
 PrefabInstance:
   m_ObjectHideFlags: 0
