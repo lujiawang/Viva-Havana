@@ -38,11 +38,11 @@ Material:
     - ot_Pattern0:
         m_Texture: {fileID: 2800000, guid: 608324813d97648558f9cea212cc0b37, type: 3}
         m_Scale: {x: 0.1, y: 0.1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: -0.000000032913164, y: 0.75296503}
     - ot_Pattern1:
         m_Texture: {fileID: 2800000, guid: 608324813d97648558f9cea212cc0b37, type: 3}
         m_Scale: {x: 0.15, y: 0.15}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: -1.0111725, y: 0.17829706}
     m_Floats:
     - _RampDepth: 0.5
     - _StartAtDepth: 0.25
