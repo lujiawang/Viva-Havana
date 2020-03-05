@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: {fileID: 3700863103653853816}
-  trigger: 10
+  trigger: 15
 --- !u!1 &6628140240050731564
 GameObject:
   m_ObjectHideFlags: 0
