@@ -9,8 +9,10 @@ public class SceneSwitcher : MonoBehaviour
 {
     public int PlazaNum = 0;
     public int RestaurantNum = 1;
+    public int ShoppingMallNum = 2;
     public GameObject plaza;
     public GameObject rest;
+    public GameObject shopping;
     public Material originMat;
     public Material darkerMat;
     public void ToPlaza()
@@ -31,5 +33,15 @@ public class SceneSwitcher : MonoBehaviour
         GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
         mat = originMat;
     }
+        public void ToShoppingMall()
+    {
+        Material mat = shopping.GetComponent<Renderer>().material;
+        mat = darkerMat;
+        print("shop");
+        SceneManager.LoadScene(ShoppingMallNum);
+        GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
+        mat = originMat;
+    }
+
 
 }
