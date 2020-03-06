@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class EnableCanvas : MonoBehaviour
 {
-    public GameObject gameObject;
+    public GameObject canvas;
     public bool active = false;
     public AudioSource Audio;
 
+    void Update()
+    {
+        //if(OVRInput.GetDown(OVRInput.Button.))
+        if (OVRInput.Get(OVRInput.Button.One)){
+            //Audio.Play();
+            Enable();
+        }
+    }
+
     public void Enable()
     {
-        active = !active;
-        gameObject.SetActive(active);
-
-        if (active)
-            Audio.Play();
+        Audio.Play();
+        active = !active;       
+        canvas.SetActive(active);
+        
     }
 }
