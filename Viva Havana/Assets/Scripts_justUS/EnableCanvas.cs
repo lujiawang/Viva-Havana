@@ -6,22 +6,22 @@ public class EnableCanvas : MonoBehaviour
 {
     public GameObject canvas;
     public bool active = false;
-    public AudioSource Audio;
+    public AudioSource audio;
+    
 
     void Update()
     {
-        //if(OVRInput.GetDown(OVRInput.Button.))
-        if (OVRInput.Get(OVRInput.Button.One)){
-            //Audio.Play();
-            Enable();
-        }
+        Transform humanoid = GameObject.FindGameObjectWithTag("Player").transform;
+        transform.position = humanoid.position;
+        transform.rotation = humanoid.rotation;
     }
 
     public void Enable()
     {
-        Audio.Play();
         active = !active;       
         canvas.SetActive(active);
+        audio.Play();
+        Debug.Log(audio.clip.name);
         
     }
 }

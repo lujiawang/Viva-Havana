@@ -7,40 +7,40 @@ using UnityEngine.SceneManagement;
 /*This script will eventually be replaced by a UI menu*/
 public class SceneSwitcher : MonoBehaviour
 {
-    public int PlazaNum = 0;
-    public int RestaurantNum = 1;
-    public int ShoppingMallNum = 2;
-    public GameObject plaza;
-    public GameObject rest;
-    public GameObject shopping;
-    public Material originMat;
-    public Material darkerMat;
+    public Animator animator;
+    private string sceneName;
+
+    public void Fade()
+    {
+        string current = SceneManager.GetActiveScene().name;
+        if (!current.Equals(sceneName))
+        {
+            animator.SetTrigger("FadeOut");
+        }
+    }
+
+    public void loadScene()
+    {
+        SceneManager.LoadScene(sceneName);
+        GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
+        GameObject.FindGameObjectWithTag("Player").transform.rotation = Quaternion.identity;
+        
+    }
+
     public void ToPlaza()
     {
-        Material mat = plaza.GetComponent<Renderer>().material;
-        mat = darkerMat;
-        print("palza");
-        SceneManager.LoadScene(PlazaNum);
-        GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
-        mat = originMat;
+        sceneName = "Plaza de la Catedral";
+        Fade();
     }
     public void ToRestaurant()
     {
-        Material mat = rest.GetComponent<Renderer>().material;
-        mat = darkerMat;
-        print("res");
-        SceneManager.LoadScene(RestaurantNum);
-        GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
-        mat = originMat;
+        sceneName = "Restaurant - La Bodeguita Del Medio";
+        Fade();
     }
-        public void ToShoppingMall()
+    public void ToShoppingMall()
     {
-        Material mat = shopping.GetComponent<Renderer>().material;
-        mat = darkerMat;
-        print("shop");
-        SceneManager.LoadScene(ShoppingMallNum);
-        GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
-        mat = originMat;
+        sceneName = "Shopping";
+        Fade();
     }
 
 
