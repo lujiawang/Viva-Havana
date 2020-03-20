@@ -50,7 +50,7 @@ public class SceneSwitcher : MonoBehaviour
     }
     public void ToShoppingMall()
     {
-        sceneName = "Shopping";
+        sceneName = "Testing";
         Fade();
     }
 
