@@ -17,5 +17,11 @@ public class EnableHumanoid : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void GetMenu()
+    {       
+        GameObject menu = GameObject.FindGameObjectWithTag("Menu");
+        menu.GetComponent<EnableCanvas>().Enable();
+
+    }
 
 }
