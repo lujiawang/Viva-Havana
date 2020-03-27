@@ -22,7 +22,7 @@ public class CarBip : MonoBehaviour
     {
 		player = GameObject.FindWithTag("Player");
 		object source = GetComponent<AudioSource>();
-		if (Vector3.Distance(player.transform.position, GameObject.Find("Car").transform.position) <= 5)
+		if (Vector3.Distance(player.transform.position, GameObject.Find("Car").transform.position) <= 15)
 		{
 			audio.PlayOneShot(SoundToPlay, Volume);
 		}
