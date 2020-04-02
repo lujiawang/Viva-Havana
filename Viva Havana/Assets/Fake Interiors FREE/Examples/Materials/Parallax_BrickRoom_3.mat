@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Back:
-        m_Texture: {fileID: 2800000, guid: 25c93ab15c3af0f40ac6ab08fc94be47, type: 3}
+        m_Texture: {fileID: 2800000, guid: d8f1912e197f37a4f84275d6853416c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ceileing:
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ceiling:
-        m_Texture: {fileID: 2800000, guid: a99083a49054f364b9914782ce38fe5b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 18352faa127acb6448938ad5ad139621, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FacadeAlbedo:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Floor:
-        m_Texture: {fileID: 2800000, guid: e2a647436824e234388c546f0f68486f, type: 3}
+        m_Texture: {fileID: 2800000, guid: f2c8d89f84f695a4bae9d64382429a9a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Props:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Wall:
-        m_Texture: {fileID: 2800000, guid: f0db6e41f9c57bb46a6aef55e140d4b7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8b1206b91a48d4d48841e2b825c1ed9a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
