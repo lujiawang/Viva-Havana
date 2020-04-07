@@ -1,0 +1,278 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 20-03-21, 09:57
+
+newmtl dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6196 0.59599996 0.60389996 
+Kd 0.6196 0.59599996 0.60389996 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik.jpg
+map_Kd dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik.jpg
+
+newmtl c7e8159271a61583c5b72c4790716573
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka c7e8159271a61583c5b72c4790716573.jpg
+map_Kd c7e8159271a61583c5b72c4790716573.jpg
+
+newmtl stylzied_wood)
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.39209998 0.3803 0.0941 
+Kd 0.39209998 0.3803 0.0941 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka stylzied_wood).jpg
+map_Kd stylzied_wood).jpg
+
+newmtl crate_generator_by_dactilardesign-d5np5b6
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.5294 0.5294 0.5254 
+Kd 0.5294 0.5294 0.5254 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka crate_generator_by_dactilardesign-d5np5b6.jpg
+map_Kd crate_generator_by_dactilardesign-d5np5b6.jpg
+
+newmtl boxcrateforshop
+Ns 55.9
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.7607 0.7607 0.7607 
+Kd 0.7607 0.7607 0.7607 
+Ks 0.6666 0.6666 0.6666 
+Ke 0.0 0.0 0.0 
+map_Ka dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik.jpg
+map_Kd dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik.jpg
+
+newmtl null-11960268
+Ns 0.0
+d 0.0
+Tr 1.0
+illum 2
+Ka 0.2862 0.50189996 0.2039 
+Kd 0.2862 0.50189996 0.2039 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl cloth
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6117 0.7176 0.88229996 
+Kd 0.6117 0.7176 0.88229996 
+Ks 0.058799997 0.058799997 0.058799997 
+Ke 0.0 0.0 0.0 
+map_Ka images_(5).jpeg
+map_Kd images_(5).jpeg
+
+newmtl null-14324468
+Ns 0.0
+d 0.0
+Tr 1.0
+illum 2
+Ka 0.145 0.4274 0.047 
+Kd 0.145 0.4274 0.047 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl cloudy1-7535616
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.55289996 0.0156 0.0 
+Kd 0.55289996 0.0156 0.0 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl null-12481740
+Ns 0.0
+d 0.0
+Tr 1.0
+illum 2
+Ka 0.2549 0.54499996 0.2039 
+Kd 0.2549 0.54499996 0.2039 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl null-5677789
+Ns 0.0
+d 0.0
+Tr 1.0
+illum 2
+Ka 0.6627 0.3647 0.1372 
+Kd 0.6627 0.3647 0.1372 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl wood_barrel_
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.36069998 0.34899998 0.3372 
+Kd 0.36069998 0.34899998 0.3372 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka wood_barrel_.jpg
+map_Kd wood_barrel_.jpg
+
+newmtl Seamless_marble_texture_(7)
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka Seamless_marble_texture_(7)7.png
+map_Kd Seamless_marble_texture_(7)7.png
+
+newmtl images_(5)
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.050899997 0.047 
+Kd 0.50189996 0.050899997 0.047 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka images_(5).jpeg
+map_Kd images_(5).jpeg
+
+newmtl Seamless_marble_texture_(7)-3690735
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.78029996 0.68619996 0.066599995 
+Kd 0.78029996 0.68619996 0.066599995 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka Seamless_marble_texture_(7)7.png
+map_Kd Seamless_marble_texture_(7)7.png
+
+newmtl Seamless_marble_texture_(7)-8380636
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.1215 0.14109999 
+Kd 0.50189996 0.1215 0.14109999 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka Seamless_marble_texture_(7)7.png
+map_Kd Seamless_marble_texture_(7)7.png
+
+newmtl luis-montes-de-oca-wood-texture
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6196 0.59599996 0.60389996 
+Kd 0.6196 0.59599996 0.60389996 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka luis-montes-de-oca-wood-texture.jpg
+map_Kd luis-montes-de-oca-wood-texture.jpg
+
+newmtl images_(5)1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6196 0.59599996 0.60389996 
+Kd 0.6196 0.59599996 0.60389996 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka images_(5).jpeg
+map_Kd images_(5).jpeg
+
+newmtl orvIwWs
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6196 0.6156 0.43919998 
+Kd 0.6196 0.6156 0.43919998 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka orvIwWs.jpg
+map_Kd orvIwWs.jpg
+
+newmtl images_(6)
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.3215 0.0941 0.0901 
+Kd 0.3215 0.0941 0.0901 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka images_(6).jpeg
+map_Kd images_(6).jpeg
+
+newmtl boxcrateforshop
+Ns 55.9
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.7607 0.7607 0.7607 
+Kd 0.7607 0.7607 0.7607 
+Ks 0.6666 0.6666 0.6666 
+Ke 0.0 0.0 0.0 
+map_Ka dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik.jpg
+map_Kd dirty_crate_texture_1024_x_1024_by_scifilicious-da5ftik.jpg
+
+newmtl cloudy1-7535616
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.55289996 0.0156 0.0 
+Kd 0.55289996 0.0156 0.0 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-14324468
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.145 0.4274 0.047 
+Kd 0.145 0.4274 0.047 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl images_(5)2
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.46269998 0.43519998 
+Kd 0.498 0.46269998 0.43519998 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+map_Ka images_(5).jpeg
+map_Kd images_(5).jpeg
+
