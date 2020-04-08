@@ -9,6 +9,7 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI text;
     public string[] lines;
     private int count;
+    public GameObject next;
 
     void Start()
     {
@@ -25,6 +26,8 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            if (next != null)
+                next.gameObject.SetActive(true);
         }
     }
 }

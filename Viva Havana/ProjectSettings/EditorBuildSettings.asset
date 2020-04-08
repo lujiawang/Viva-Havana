@@ -11,18 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Plaza de la Catedral.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Restaurant - La Bodeguita Del Medio.unity
     guid: 2c5574e98587ea54c99dfe77d79c09ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Shopping Street.unity
     guid: 6093b35831752d04cba3fe975593a664
   - enabled: 1
     path: Assets/Scenes/Beach.unity
     guid: f80ec39ab9403084a95a5d38b4aed753
   - enabled: 0
-    path: Assets/Scenes/Testing.unity
-    guid: 3a63f3523d47b5d4f863842de1dbe38b
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -45,6 +45,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Photon Scenes/Room for 4.unity
     guid: 853f72a9c694b45b18711e23984ef3d8
   - enabled: 0
-    path: Assets/Scenes/Shopping Testing.unity
-    guid: d69f63232c218c5418b51d221a0fa55f
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

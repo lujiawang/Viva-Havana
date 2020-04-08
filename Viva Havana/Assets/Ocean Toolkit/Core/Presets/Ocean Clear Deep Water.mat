@@ -70,7 +70,7 @@ Material:
     - ot_AbsorptionCoeffs: {r: 3, g: 20, b: 50, a: 1}
     - ot_AmbientColor: {r: 0.014759947, g: 0.09084614, b: 0.1544118, a: 1}
     - ot_ClipExtents: {r: 50, g: 50, b: 0, a: 0}
-    - ot_DeepWaterColor: {r: 0, g: 0.113387235, b: 0.38235295, a: 1}
+    - ot_DeepWaterColor: {r: 0.08259169, g: 0.31989816, b: 0.6037736, a: 1}
     - ot_DeepWaterColorUnlit: {r: 0.057525955, g: 0.20338893, b: 0.41176468, a: 1}
     - ot_DiffuseColor: {r: 0.057093423, g: 0.20225513, b: 0.32352942, a: 1}
     - ot_RefrColor: {r: 1, g: 0, b: 0, a: 1}

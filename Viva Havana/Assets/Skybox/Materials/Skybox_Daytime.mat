@@ -64,7 +64,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 0.9979358
+    - _Exposure: 0.71112716
     - _Glossiness: 0.5
     - _HdrExposure: 1.3
     - _ImageType: 0
@@ -75,7 +75,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 6.889922
+    - _Rotation: 139.36716
     - _SrcBlend: 1
     - _SunStrength: 1
     - _UVSec: 0
@@ -85,4 +85,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.369, g: 0.349, b: 0.341, a: 1}
     - _SunTint: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0.50185657, g: 0.500124, b: 0.4997939, a: 0.499174}
+    - _Tint: {r: 0.75981206, g: 0.5173497, b: 0.4711561, a: 0.3844075}
