@@ -26,7 +26,7 @@ public class ClickingBehavior : MonoBehaviour
 
     void FixedUpdate()
     {
-        time += Time.time;
+        time += Time.deltaTime;
         if (time >= 5 && clicked)
         {
             time = 0;
@@ -41,6 +41,7 @@ public class ClickingBehavior : MonoBehaviour
         {
             OnClick.Invoke();
             clicked = true;
+            time = 0;
             audio.Play();
         }
     }

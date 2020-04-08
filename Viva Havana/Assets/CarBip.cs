@@ -6,6 +6,7 @@ public class CarBip : MonoBehaviour
 {
 
 	private GameObject player;
+    private bool beep;
 	public AudioClip SoundToPlay;
 	public float Volume;
 	AudioSource audio;
@@ -14,7 +15,7 @@ public class CarBip : MonoBehaviour
     void Start()
     {
 		audio = GetComponent<AudioSource>();
-
+        beep = false;
 	}
 
 	// Update is called once per frame
@@ -22,9 +23,14 @@ public class CarBip : MonoBehaviour
     {
 		player = GameObject.FindWithTag("Player");
 		object source = GetComponent<AudioSource>();
-		if (Vector3.Distance(player.transform.position, GameObject.Find("Car").transform.position) <= 15)
+		if (!beep && Vector3.Distance(player.transform.position, GameObject.Find("Car").transform.position) <= 15)
 		{
 			audio.PlayOneShot(SoundToPlay, Volume);
+            beep = true;
 		}
-	}
+        if (beep && Vector3.Distance(player.transform.position, GameObject.Find("Car").transform.position) > 15)
+        {
+            beep = false;
+        }
+    }
 }
