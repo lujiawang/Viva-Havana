@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Restaurant - La Bodeguita Del Medio.unity
     guid: 2c5574e98587ea54c99dfe77d79c09ad
   - enabled: 1
-    path: Assets/Scenes/Testing 1.unity
+    path: Assets/Scenes/Shopping Street.unity
     guid: 6093b35831752d04cba3fe975593a664
   - enabled: 1
     path: Assets/Scenes/Beach.unity
