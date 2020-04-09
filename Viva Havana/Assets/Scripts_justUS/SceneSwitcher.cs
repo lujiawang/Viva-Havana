@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,11 +11,12 @@ public class SceneSwitcher : MonoBehaviour
     public Animator animator;
     private string sceneName;
 
-    
+    private GameObject loading;
     public Canvas fadeCanvas;
 
     void Start()
     {
+        loading = transform.GetChild(1).gameObject.transform.GetChild(1).gameObject;
         fadeCanvas.renderMode = RenderMode.ScreenSpaceCamera;
         fadeCanvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
@@ -25,11 +27,14 @@ public class SceneSwitcher : MonoBehaviour
         if (!current.Equals(sceneName))
         {
             animator.SetTrigger("FadeOut");
+            loading.SetActive(true);
         }
     }
 
     public void loadScene()
     {
+        loading.GetComponent<TextMeshProUGUI>().text = "loading...";
+
         SceneManager.LoadScene(sceneName);
         GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
         GameObject.FindGameObjectWithTag("Player").transform.rotation = Quaternion.identity;
