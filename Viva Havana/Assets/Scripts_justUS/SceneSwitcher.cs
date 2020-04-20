@@ -65,5 +65,11 @@ public class SceneSwitcher : MonoBehaviour
         Fade();
     }
 
+    public void ToCredit()
+    {
+        sceneName = "Credit";
+        Fade();
+    }
+
 
 }
