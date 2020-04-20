@@ -15,6 +15,13 @@ public class Dialogue : MonoBehaviour
     {
         count = 0;
     }
+
+    void Update()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        Vector3 faceTo = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+        transform.LookAt(faceTo);
+    }
     
     public void NextLine()
     {
