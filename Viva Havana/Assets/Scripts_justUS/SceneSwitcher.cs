@@ -5,13 +5,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-/*This script will eventually be replaced by a UI menu*/
 public class SceneSwitcher : MonoBehaviour
 {
     public Animator animator;
     private string sceneName;
 
     private GameObject loading;
+    public Camera loadingCam;
     public Canvas fadeCanvas;
 
     void Start()
@@ -26,6 +26,7 @@ public class SceneSwitcher : MonoBehaviour
         string current = SceneManager.GetActiveScene().name;
         if (!current.Equals(sceneName))
         {
+            fadeCanvas.worldCamera = loadingCam;
             animator.SetTrigger("FadeOut");
             loading.SetActive(true);
         }
