@@ -70,6 +70,7 @@ public class SceneSwitcher : MonoBehaviour
     {
         sceneName = "Credit";
         Fade();
+        gameObject.SetActive(false);
     }
 
 

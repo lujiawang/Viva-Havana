@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3356970042334285420}
-  loadingCam: {fileID: 0}
+  loadingCam: {fileID: 8312028916410472805}
   fadeCanvas: {fileID: 3356970042360070334}
 --- !u!114 &3356970042334285419
 MonoBehaviour:

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnableHumanoid : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class EnableHumanoid : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             Instance = this;
         }
-        else if (Instance != this)
+        else if (Instance != this || SceneManager.GetActiveScene().name.Equals("credit"))
         {
             Destroy(gameObject);
         }
