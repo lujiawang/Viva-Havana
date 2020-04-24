@@ -11,7 +11,6 @@ public class SceneSwitcher : MonoBehaviour
     private string sceneName;
 
     private GameObject loading;
-    public Camera loadingCam;
     public Canvas fadeCanvas;
 
     void Start()
@@ -26,7 +25,6 @@ public class SceneSwitcher : MonoBehaviour
         string current = SceneManager.GetActiveScene().name;
         if (!current.Equals(sceneName))
         {
-            fadeCanvas.worldCamera = loadingCam;
             animator.SetTrigger("FadeOut");
             loading.SetActive(true);
         }
@@ -70,7 +68,6 @@ public class SceneSwitcher : MonoBehaviour
     {
         sceneName = "Credit";
         Fade();
-        gameObject.SetActive(false);
     }
 
 

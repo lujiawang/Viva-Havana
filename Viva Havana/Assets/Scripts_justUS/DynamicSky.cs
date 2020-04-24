@@ -39,7 +39,7 @@ public class DynamicSky : MonoBehaviour
         //rotation
         RenderSettings.skybox.SetFloat("_Rotation", Time.time * RotateSpeed);
 
-        //color
+        /*//color
         if (red <= SunsetRed && green <= SunsetGreen && blue >= SunsetBlue && alpha >= SunsetAlpha)
         {
             red -= redSpeed;
@@ -48,7 +48,7 @@ public class DynamicSky : MonoBehaviour
             alpha -= alphaSpeed;
             color = new Color(red,green,blue,alpha);
             RenderSettings.skybox.SetColor("_Tint", color);
-        }
+        }*/
 
         //darkness
         if (exposure >= 0.5f)

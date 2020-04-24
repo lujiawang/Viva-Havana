@@ -13,7 +13,7 @@ public class EnableHumanoid : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             Instance = this;
         }
-        else if (Instance != this || SceneManager.GetActiveScene().name.Equals("credit"))
+        else if (Instance != this)
         {
             Destroy(gameObject);
         }
