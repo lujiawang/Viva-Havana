@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.Audio;
 
+/*Author: Lujia Wang*/
+/*This script simply switch the video clips*/
 public class SwapVideo : MonoBehaviour
 {
 	private VideoPlayer vp;

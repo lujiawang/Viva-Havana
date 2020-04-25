@@ -11,9 +11,11 @@ public class Quit : MonoBehaviour
         canvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         
     }
-    public void QuitApp()
+
+    void Update()
     {
-        Application.Quit();
+        if (Time.time > 35f)
+            Application.Quit();
     }
 
    
