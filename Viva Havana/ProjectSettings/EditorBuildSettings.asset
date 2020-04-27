@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: fea47d1c4b0c1624da1941b46e811139
@@ -20,15 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shopping Street.unity
     guid: 6093b35831752d04cba3fe975593a664
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Beach.unity
     guid: f80ec39ab9403084a95a5d38b4aed753
   - enabled: 1
     path: Assets/Scenes/Credit.unity
     guid: 48dad98eba7885441be33cdf49e3b72d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

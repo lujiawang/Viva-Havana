@@ -27,7 +27,7 @@ public class ClickingBehavior : MonoBehaviour
     void FixedUpdate()
     {
         time += Time.deltaTime;
-        if (time >= 5 && clicked)
+        if (time >= 2.5f && clicked)
         {
             time = 0;
             clicked = false;
