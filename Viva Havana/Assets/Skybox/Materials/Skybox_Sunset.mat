@@ -64,13 +64,13 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 0.88500834
+    - _Exposure: 0.917506
     - _Glossiness: 0.5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 23.420834
+    - _Rotation: 19.031322
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
