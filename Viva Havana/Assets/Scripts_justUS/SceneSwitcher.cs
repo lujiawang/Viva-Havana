@@ -11,13 +11,14 @@ public class SceneSwitcher : MonoBehaviour
     private string sceneName;
 
     private GameObject loading;
-    public Canvas fadeCanvas;
+    private GameObject menu;
+    private GameObject model;
 
     void Start()
     {
+        menu = transform.GetChild(0).gameObject;
         loading = transform.GetChild(1).gameObject.transform.GetChild(1).gameObject;
-        fadeCanvas.renderMode = RenderMode.ScreenSpaceCamera;
-        fadeCanvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        model = GameObject.FindGameObjectWithTag("Model");
     }
 
     public void Fade()
@@ -25,6 +26,8 @@ public class SceneSwitcher : MonoBehaviour
         string current = SceneManager.GetActiveScene().name;
         if (!current.Equals(sceneName))
         {
+            model.SetActive(false);
+            menu.SetActive(false);
             animator.SetTrigger("FadeOut");
             loading.SetActive(true);
         }
@@ -37,9 +40,8 @@ public class SceneSwitcher : MonoBehaviour
         SceneManager.LoadScene(sceneName);
         GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
         GameObject.FindGameObjectWithTag("Player").transform.rotation = Quaternion.identity;
-        fadeCanvas.renderMode = RenderMode.ScreenSpaceCamera;
-        fadeCanvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-
+        model = GameObject.FindGameObjectWithTag("model");
+        model.SetActive(true);
     }
 
     public void ToPlaza()
