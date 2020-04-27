@@ -673,7 +673,7 @@ RectTransform:
   m_GameObject: {fileID: 835654814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8.682, y: 8.682, z: 8.682}
+  m_LocalScale: {x: 8.682, y: 9.599688, z: 8.682}
   m_Children: []
   m_Father: {fileID: 3318749812278342133}
   m_RootOrder: 0
@@ -920,7 +920,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: -4714}
+  m_AnchoredPosition: {x: -0.000030517578, y: -5649}
   m_SizeDelta: {x: 9999, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114912353
@@ -1101,14 +1101,21 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Equality Lab
 
+
     The Ohio State University
 
-    The Advanced Computing
-    Center for the Arts and Design
+
+    ACCAD
+
+    The Advanced
+    Computing Center for the Arts and Design
+
 
     Shadrick Addy
 
+
     Huamin Wang
+
 
     Espinosa
     de los Monteros'
@@ -1139,8 +1146,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 137.5
-  m_fontSizeBase: 137.5
+  m_fontSize: 123
+  m_fontSizeBase: 123
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1180,12 +1187,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1121514540}
-    characterCount: 143
+    characterCount: 154
     spriteCount: 0
-    spaceCount: 22
-    wordCount: 23
+    spaceCount: 28
+    wordCount: 24
     linkCount: 0
-    lineCount: 6
+    lineCount: 12
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
@@ -2104,7 +2111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 4684}
+  m_AnchoredPosition: {x: 0, y: 5660}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1927933583
