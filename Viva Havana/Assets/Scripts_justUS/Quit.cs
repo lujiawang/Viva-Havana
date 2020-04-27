@@ -6,10 +6,17 @@ public class Quit : MonoBehaviour
 {
     public Camera cam;
     public float quitTime = 40f;
+    private float time;
+    void Start()
+    {
+        time = 0f;
+    }
+
     void Update()
     {
+        time += Time.deltaTime;
         cam.transform.position = Vector3.zero;
-        if (Time.time > quitTime)
+        if (time > quitTime)
             Application.Quit();
     }
 
