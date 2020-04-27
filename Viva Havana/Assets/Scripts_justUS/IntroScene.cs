@@ -12,7 +12,6 @@ public class IntroScene : MonoBehaviour
 
     private GameObject loading;
     private GameObject intro;
-    public Canvas fadeCanvas;
 
     private bool load;
 
@@ -20,9 +19,7 @@ public class IntroScene : MonoBehaviour
     {
         loading = transform.GetChild(0).gameObject.transform.GetChild(1).gameObject;
         intro = transform.GetChild(0).gameObject.transform.GetChild(2).gameObject;
-
-        fadeCanvas.renderMode = RenderMode.ScreenSpaceCamera;
-        fadeCanvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        
 
         load = false;
     }
@@ -41,11 +38,9 @@ public class IntroScene : MonoBehaviour
     {
         loading.GetComponent<TextMeshProUGUI>().text = "loading...";
 
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("Plaza de la Catedral");
         GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.zero;
         GameObject.FindGameObjectWithTag("Player").transform.rotation = Quaternion.identity;
-        fadeCanvas.renderMode = RenderMode.ScreenSpaceCamera;
-        fadeCanvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
 
     }
 
@@ -53,7 +48,6 @@ public class IntroScene : MonoBehaviour
     {
         if (Time.time > 10f && !load)
         {
-            sceneName = "Plaza de la Catedral";
             Fade();
             load = true;
             loadScene();

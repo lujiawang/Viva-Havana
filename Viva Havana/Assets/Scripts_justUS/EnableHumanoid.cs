@@ -18,6 +18,14 @@ public class EnableHumanoid : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    void Update()
+    {
+        if (GameObject.FindGameObjectWithTag("RegularCam") != null)
+        {
+            Destroy(gameObject);
+        }
+
+    }
     public void GetMenu()
     {       
         GameObject menu = GameObject.FindGameObjectWithTag("Menu");

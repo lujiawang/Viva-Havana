@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class Quit : MonoBehaviour
 {
-    public Canvas canvas;
-    void Start()
-    {
-        canvas.renderMode = RenderMode.ScreenSpaceCamera;
-        canvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        
-    }
-
+    public Camera cam;
+    public float quitTime = 40f;
     void Update()
     {
-        if (Time.time > 35f)
+        cam.transform.position = Vector3.zero;
+        if (Time.time > quitTime)
             Application.Quit();
     }
 

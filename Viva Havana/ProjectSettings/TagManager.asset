@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Menu
   - Loading
+  - RegularCam
   layers:
   - Default
   - TransparentFX
